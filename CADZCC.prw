@@ -22,6 +22,7 @@
 ±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
 ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß*/
 Muda outro fonte
+Muda outra vez
 User Function CADZCC()
 
 Local c_Cadastro 	:= "><)))))º> - GDC Manutencao de Produtos X Fornecedor | Clientes."
