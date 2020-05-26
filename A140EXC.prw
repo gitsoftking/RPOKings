@@ -33,6 +33,8 @@ mud carol
 Na implanta nao esta assim, essa branch esta desatualizada
 pull request pelo vs code
 
+Farei um merge direto na master!
+
 User Function A140EXC()
 
 Local a_AreaATU	:= GetArea()
