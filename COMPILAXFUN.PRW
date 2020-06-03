@@ -22,6 +22,8 @@
 
 Commit 1
 
+Commit 2
+
 /*/{Protheus.doc} CPXGRV
 Realiza a gravacao de registros via RECLOCK e inicializando
 todos os inicializadores padroes. Realiza consitencia se 
