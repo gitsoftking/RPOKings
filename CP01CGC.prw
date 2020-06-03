@@ -1,6 +1,8 @@
 #include 'protheus.ch'
 #include 'parmtype.ch'
 
+Tentativa de merge na master
+
 user function CP01CGC()
 	Local cRet := ""
 	
