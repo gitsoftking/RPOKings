@@ -3,10 +3,12 @@
 
 User Function zWLZ0GetParamBD(c_Param)
 
+mudei aqui
+
 Local a_AreaATU := GetArea()
 Local l_Achou   := .F.
 
-//Se não encontrar a chave, considera que é um ambiente de Teste
+//Se nï¿½o encontrar a chave, considera que ï¿½ um ambiente de Teste
 Local c_Ambiente    := Upper(AllTrim(GetSrvProfString("TipoAmbienteGDC", "TESTE"))) 
 Local c_ChvAmb      := ""
 
@@ -107,12 +109,12 @@ Replace ZAL_STATUS With "0"             //(0=Processando; 1=OK; 2=ERRO)
 Replace ZAL_ORIGEM With c_Orig          //(P=PROTHEUS; W=Weblayer)
 Replace ZAL_DTINIC With MsDate()        //(Data de Inicio do Processo)
 Replace ZAL_HRINIC With Time()          //(Hora de Inicio do Processo)
-Replace ZAL_METODO With c_Verbo         //(Verbo da Método)
+Replace ZAL_METODO With c_Verbo         //(Verbo da Mï¿½todo)
 Replace ZAL_URL    With c_URL           //(URL da API)
-Replace ZAL_SERVIC With c_Servic        //(Nome do Serviço)
+Replace ZAL_SERVIC With c_Servic        //(Nome do Serviï¿½o)
 Replace ZAL_REQUES With c_Request       //(Request feito)
-Replace ZAL_TABERP With c_Tabela        //(Alias da interação)
-Replace ZAL_CHVERP With c_Chave         //(Chave única do Alias)
+Replace ZAL_TABERP With c_Tabela        //(Alias da interaï¿½ï¿½o)
+Replace ZAL_CHVERP With c_Chave         //(Chave ï¿½nica do Alias)
 Replace ZAL_FUNORI With c_Rotina        //(Rotina que esta sendo executada)
 MsUnLock()
 
@@ -138,9 +140,9 @@ If ( n_RecLog > 0 )
     Replace ZAL_TMPDUR With n_Durac         //(Tempo de Duracao em milesegundos)
     Replace ZAL_RESPON With c_Response      //(Response retornado)
     Replace ZAL_STCODE With c_StCode        //(Status Code retornado)
-    Replace ZAL_TABERP With c_Tabela        //(Alias da interação)
-    Replace ZAL_CHVERP With c_Chave         //(Chave única do Alias)
-    Replace ZAL_CHVTER With c_ChvTer        //(Chave única do Sistema Terceiro)
+    Replace ZAL_TABERP With c_Tabela        //(Alias da interaï¿½ï¿½o)
+    Replace ZAL_CHVERP With c_Chave         //(Chave ï¿½nica do Alias)
+    Replace ZAL_CHVTER With c_ChvTer        //(Chave ï¿½nica do Sistema Terceiro)
     MsUnLock()
 Endif
 
